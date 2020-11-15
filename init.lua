@@ -2,6 +2,7 @@ local net_nodename = "digiline_network:network_card"
 minetest.register_node(net_nodename,{
   description = "Network Card",
   drawtype = "nodebox",
+  groups = {cracky = 3, not_blocking_trains = 1},
   tiles = {
     "jeija_microcontroller_top.png",
     "jeija_microcontroller_bottom.png",
